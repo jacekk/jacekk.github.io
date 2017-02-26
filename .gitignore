@@ -1,1 +1,9 @@
+.deploy/
+.DS_Store
+db.json
+debug.log
 node_modules/
+npm-debug.log
+public/
+themes/
+Thumbs.db
