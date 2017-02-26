@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: JacekK.blog
+title: jacekk.github.io
 subtitle:
 description:
 author: JacekK
@@ -12,7 +12,7 @@ timezone: UTC
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://blog.jacek-k.net
+url: https://jacekk.github.io
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -68,7 +68,10 @@ theme: cactus-dark
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: https://github.com/jacekk/jacekk.github.io.git
+  branch: master
+  message: "{{ now('YYYY-MM-DD HH:mm:ss') }}"
 
 feed:
   type: atom

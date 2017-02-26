@@ -1,4 +1,4 @@
-.deploy/
+.deploy_git/
 .DS_Store
 db.json
 debug.log
