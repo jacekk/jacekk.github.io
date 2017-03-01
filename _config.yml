@@ -5,7 +5,7 @@
 # Site
 title: jacekk.github.io
 subtitle:
-description:
+description: Blog about nothing and anything. Created by a web developer, who loves to learn and be inspired by others.
 author: JacekK
 language: en
 timezone: UTC
@@ -80,3 +80,6 @@ feed:
   limit: 0
   hub:
   content: false
+
+nofollow:
+  enable: true
