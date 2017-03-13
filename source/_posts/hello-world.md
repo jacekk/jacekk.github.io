@@ -1,6 +1,7 @@
 ---
 title: Hello World
 description: Simple welcome to everyone.
+author: JacekK
 categories:
     - Daj Się Poznać 2017
 tags:
