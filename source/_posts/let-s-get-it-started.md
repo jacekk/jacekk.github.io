@@ -22,7 +22,7 @@ Firstly I would like to point some reasons why I started this challenge. The who
 
 What's more, I was never into writing. One of the worst periods of my life was when I had to write my diploma thesis ;) I used to write a lot with people over the Internet, but I guess it's slightly different. There is no questions I can reply. I have to think about the post structure, subheadings, subject consistency, and bunch of whatnots. It ain't easy ... at least for now :)
 
-The decision about submitting the contest form has been made after a short talk of [Paweł Słomka](http://mycodesmells.com/) at [Boiling Frogs 2017](2017.boilingfrogs.pl) conference I attended. He talked about his challenge of 100 posts in a single year, and how that influenced himself. 100 posts a year is more less the same as the requirement of *Get Noticed!* rules, except, just for 10 weeks. Paweł has successfully completed his *daunting* commitment, so why shouldn't I. At least I will try.
+The decision about submitting the contest form has been made after a short talk of [Paweł Słomka](http://mycodesmells.com/) at [Boiling Frogs 2017](http://2017.boilingfrogs.pl) conference I attended. He talked about his challenge of 100 posts in a single year, and how that influenced himself. 100 posts a year is more less the same as the requirement of *Get Noticed!* rules, except, just for 10 weeks. Paweł has successfully completed his *daunting* commitment, so why shouldn't I. At least I will try.
 
 ## What?
 
