@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>jacekk.github.io</title>
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://jacekk.github.io/"/>
+  <updated>2017-03-20T00:12:13.000Z</updated>
+  <id>https://jacekk.github.io/</id>
+  
+  <author>
+    <name>JacekK</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Advent of Code</title>
+    <link href="https://jacekk.github.io/2017/03/20/advent-of-code/"/>
+    <id>https://jacekk.github.io/2017/03/20/advent-of-code/</id>
+    <published>2017-03-19T23:50:12.000Z</published>
+    <updated>2017-03-20T00:12:13.000Z</updated>
+    
+    <summary type="html">
+    
+      Advent of Code
+    
+    </summary>
+    
+      <category term="Daj Się Poznać 2017" scheme="https://jacekk.github.io/categories/daj-sie-poznac-2017/"/>
+    
+    
+      <category term="DajSięPoznać2017" scheme="https://jacekk.github.io/tags/dajsiepoznac2017/"/>
+    
+      <category term="GetNoticed!2017" scheme="https://jacekk.github.io/tags/getnoticed-2017/"/>
+    
+      <category term="Challenge" scheme="https://jacekk.github.io/tags/challenge/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Let&#39;s Get It Started</title>
+    <link href="https://jacekk.github.io/2017/03/13/let-s-get-it-started/"/>
+    <id>https://jacekk.github.io/2017/03/13/let-s-get-it-started/</id>
+    <published>2017-03-13T02:10:31.000Z</published>
+    <updated>2017-03-18T12:21:56.493Z</updated>
+    
+    <summary type="html">
+    
+      This is the very first post for Get Noticed! challenge. I will try to point out for what reasons I have decided to take part in it. Where the project idea came from. And some more.
+    
+    </summary>
+    
+      <category term="Daj Się Poznać 2017" scheme="https://jacekk.github.io/categories/daj-sie-poznac-2017/"/>
+    
+    
+      <category term="DajSięPoznać2017" scheme="https://jacekk.github.io/tags/dajsiepoznac2017/"/>
+    
+      <category term="GetNoticed!2017" scheme="https://jacekk.github.io/tags/getnoticed-2017/"/>
+    
+      <category term="EatMeAgain" scheme="https://jacekk.github.io/tags/eatmeagain/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://jacekk.github.io/2017/02/26/hello-world/"/>
+    <id>https://jacekk.github.io/2017/02/26/hello-world/</id>
+    <published>2017-02-26T02:20:40.000Z</published>
+    <updated>2017-03-18T12:21:56.493Z</updated>
+    
+    <summary type="html">
+    
+      Simple welcome to everyone.
+    
+    </summary>
+    
+      <category term="Daj Się Poznać 2017" scheme="https://jacekk.github.io/categories/daj-sie-poznac-2017/"/>
+    
+    
+  </entry>
+  
+</feed>

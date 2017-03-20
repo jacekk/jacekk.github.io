@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- so meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="Advent of Code">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Advent of Code">
+<meta property="og:url" content="https://jacekk.github.io/2017/03/20/advent-of-code/index.html">
+<meta property="og:site_name" content="jacekk.github.io">
+<meta property="og:description" content="Advent of Code">
+<meta property="og:updated_time" content="2017-03-20T00:12:13.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Advent of Code">
+<meta name="twitter:description" content="Advent of Code">
+    
+    
+        
+          
+              <link rel="shortcut icon" href="/images/favicon.ico">
+          
+        
+        
+          
+            <link rel="icon" type="image/png" href="/images/favicon-192x192.png" sizes="192x192">
+          
+        
+        
+          
+            <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+          
+        
+    
+    <!-- title -->
+    <title>Advent of Code</title>
+    <!-- styles -->
+    <link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/lib/meslo-LG/styles.css">
+    <link rel="stylesheet" href="/lib/justified-gallery/justifiedGallery.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- rss -->
+    
+    
+      <link rel="alternate" href="/atom.xml" title="jacekk.github.io" type="application/atom+xml">
+    
+    <!-- jquery -->
+    <script src="/lib/jquery/jquery.min.js"></script>
+</head>
+
+<body>
+    
+      <div id="header-post">
+  <a id="menu-icon" href="#"><i class="fa fa-bars fa-lg"></i></a>
+  <a id="menu-icon-tablet" href="#"><i class="fa fa-bars fa-lg"></i></a>
+  <a id="top-icon-tablet" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" style="display:none;"><i class="fa fa-chevron-up fa-lg"></i></a>
+  <span id="menu">
+    <span id="nav">
+      <ul>
+         
+          <li><a href="/">Home</a></li>
+         
+          <li><a href="/archives/">Writing</a></li>
+         
+          <li><a href="http://github.com/jacekk" rel="external nofollow noopener noreferrer" target="_blank">Projects</a></li>
+        
+      </ul>
+    </span>
+    <br>
+    <span id="actions">
+      <ul>
+        
+        
+        <li><a class="icon" href="/2017/03/13/let-s-get-it-started/"><i class="fa fa-chevron-right" aria-hidden="true" onmouseover="$(" #i-next").toggle();"="" onmouseout="$("></i></a></li>
+        
+        <li><a class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fa fa-chevron-up" aria-hidden="true" onmouseover="$(" #i-top").toggle();"="" onmouseout="$("></i></a></li>
+      </ul>
+      <span id="i-prev" class="info" style="display:none;">Previous post</span>
+      <span id="i-next" class="info" style="display:none;">Next post</span>
+      <span id="i-top" class="info" style="display:none;">Back to top</span>
+    </span>
+    <div id="toc">
+      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#General-idea"><span class="toc-number">1.</span> <span class="toc-text">General idea</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Details"><span class="toc-number">2.</span> <span class="toc-text">Details</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Results"><span class="toc-number">3.</span> <span class="toc-text">Results</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#How-I-found-out"><span class="toc-number">4.</span> <span class="toc-text">How I found out?</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#What-is-it-dude"><span class="toc-number">5.</span> <span class="toc-text">What is it dude?</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Did-I-make-it"><span class="toc-number">6.</span> <span class="toc-text">Did I make it?</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#P-S"><span class="toc-number">7.</span> <span class="toc-text">P.S.</span></a></li></ol>
+    </div>
+  </span>
+</div>
+
+    
+    <div class="content index width mx-auto px2 my4">
+        
+        <article class="post" itemscope="" itemtype="http://schema.org/BlogPosting">
+  <header>
+    
+    <h1 class="posttitle" itemprop="name headline">
+        Advent of Code
+    </h1>
+
+
+
+    <div class="meta">
+      <span class="author" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+        <span itemprop="name">JacekK</span>
+      </span>
+      
+    <div class="postdate">
+        <time datetime="2017-03-19T23:50:12.000Z" itemprop="datePublished">2017-03-19</time>
+    </div>
+
+
+      
+    <div class="article-tag">
+        <i class="fa fa-tag"></i>
+        <a class="tag-link" href="/tags/challenge/">Challenge</a>, <a class="tag-link" href="/tags/dajsiepoznac2017/">DajSięPoznać2017</a>, <a class="tag-link" href="/tags/getnoticed-2017/">GetNoticed!2017</a>
+    </div>
+
+
+    </div>
+  </header>
+  
+
+  <div class="content" itemprop="articleBody">
+    <p>Short note about one programming challenge I have found on the Internet. Actually, a set of challenges that lasts for 25 days.</p>
+<h2 id="General-idea"><a href="#General-idea" class="headerlink" title="General idea"></a>General idea</h2><p>.. is quite simple: have fun solving problems. Sometimes <em>fun</em> it is not enough, so more elements were added. Competing with others. Passing time. Commitment for 25 consecutive days. Levels of complexity and skills set that both varies. Probably some more.</p>
+<p>Most challenges (if not all) are based on wide known programming / algorithmic problems. Of course, all could be solved on paper, but sometimes I could take days. Even years. No point. We master machines to do the work for us ;)</p>
+<h2 id="Details"><a href="#Details" class="headerlink" title="Details"></a>Details</h2><p>The competition starts 25 days before Christmas. Every day a single puzzle is published to all around the world. Each puzzle is a  problem presented as a separate story. All put together could be published as an adventure book. The author is IMHO quite talented :)</p>
+<p>Story usually contains some example data as input and output. Mostly a series of inputs separated by line. Output is always a single value that contestant has to submit. Contestant means you ;) One think to remember, each contestant gets his own custom set of inputs. Output is custom as well, so there is now way to find the right answer in whatever search engine you use :P</p>
+<p>If the answer is wrong, you can submit multiple times. Although, brute force measurements have been implemented; some time interval between submits AFAIR.</p>
+<p>If the answer is right, a second part of the puzzle is revealed. Usually it only takes to change one or two things in your previous solution. But sometimes you have to rewrite, or even rethink the whole idea. Depends on how <em>properly</em> you approached the first part of the problem. No programming language is forbidden. It is up to you.</p>
+<p>In case of some difficulties with any puzzle, it is advised to the get to a dedicated <em>reddit</em> channel where people publish their solutions. Some ask questions. Some for guidance. Some ask why their code is not working as expected ;)</p>
+<h2 id="Results"><a href="#Results" class="headerlink" title="Results"></a>Results</h2><p>Those who submitted correct answer as one of the fastest 100 get points. Each day best are listed in a <em>Leaderboard</em> table. All days scores summary is available there as well … and I guess that is the most I-wanna-be-there list :) Having said that, one can solve puzzles not competing with anyone. I haven’t. Mostly because puzzles were revealed when it is 6 a.m. at my place ;)</p>
+<p>Those who are not the fastest also get a reward: stars. One star for each puzzle part. There is a list with a number of stars for each day and the number of people who solved day 1 puzzle from 2016 edition is around 13 thousands. So quite popular.</p>
+<p>What’s more, some people push their solutions to the Github. Some even wrote bots to check list of scores for each day and if it is full - has one hundred rows - bot pushes current day changes to the public. Pretty clever :)</p>
+<h2 id="How-I-found-out"><a href="#How-I-found-out" class="headerlink" title="How I found out?"></a>How I found out?</h2><p>Well, I have got a bunch of feeds in my RSS reader. Luckily, on the first day of the 2016 edition someone posted a video on which one guy was solving the day 1 puzzle in PHP. That guy was <a href="https://twitter.com/geeh" rel="external nofollow noopener noreferrer" target="_blank">Gary Hockin</a> AFAIR. I liked the idea right away. I took part, so now I encourage you to at least try :)</p>
+<h2 id="What-is-it-dude"><a href="#What-is-it-dude" class="headerlink" title="What is it dude?"></a>What is it dude?</h2><p><a href="http://adventofcode.com/" rel="external nofollow noopener noreferrer" target="_blank">Advent of Code</a> is what this post is all about. All aforementioned views are linked out there. Don’t thank. Sign up and have fun :)</p>
+<h2 id="Did-I-make-it"><a href="#Did-I-make-it" class="headerlink" title="Did I make it?"></a>Did I make it?</h2><p>I was trying. At least for the first 12 days. Puzzle from day 11 just blew my mind. Also I had to finished one project, so unfortunately after day 12 I had to gave it up. This year plan is to finish all the 2016 edition puzzles, so that I can start new one and finish it on time. You can check out my solutions written in Javascript on <a href="https://github.com/jacekk/advent-of-code-2016" rel="external nofollow noopener noreferrer" target="_blank">Github</a>. No pull requests, please ;)</p>
+<h2 id="P-S"><a href="#P-S" class="headerlink" title="P.S."></a>P.S.</h2><p>I liked the challenge website design as hell :)</p>
+
+  </div>
+</article>
+
+    <div class="blog-post-comments">
+        <div id="disqus_thread">
+            <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+        </div>
+    </div>
+
+
+
+    </div>
+    
+      <div id="footer-post-container">
+  <div id="footer-post">
+
+    <div id="nav-footer" style="display: none">
+      <ul>
+         
+          <li><a href="/">Home</a></li>
+         
+          <li><a href="/archives/">Writing</a></li>
+         
+          <li><a href="http://github.com/jacekk" rel="external nofollow noopener noreferrer" target="_blank">Projects</a></li>
+        
+      </ul>
+    </div>
+
+    <div id="toc-footer" style="display: none">
+      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#General-idea"><span class="toc-number">1.</span> <span class="toc-text">General idea</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Details"><span class="toc-number">2.</span> <span class="toc-text">Details</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Results"><span class="toc-number">3.</span> <span class="toc-text">Results</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#How-I-found-out"><span class="toc-number">4.</span> <span class="toc-text">How I found out?</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#What-is-it-dude"><span class="toc-number">5.</span> <span class="toc-text">What is it dude?</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Did-I-make-it"><span class="toc-number">6.</span> <span class="toc-text">Did I make it?</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#P-S"><span class="toc-number">7.</span> <span class="toc-text">P.S.</span></a></li></ol>
+    </div>
+
+    <div id="actions-footer">
+      <ul>
+        <li id="toc"><a class="icon" href="#" onclick="$(" #toc-footer").toggle();return="" false;"=""><i class="fa fa-list fa-lg" aria-hidden="true"></i> TOC</a></li>
+        <li id="top" style="display:none"><a class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fa fa-chevron-up fa-lg" aria-hidden="true"></i> Top</a></li>
+        <li id="menu"><a class="icon" href="#" onclick="$(" #nav-footer").toggle();return="" false;"=""><i class="fa fa-bars fa-lg" aria-hidden="true"></i> Menu</a></li>
+      </ul>
+    </div>
+
+  </div>
+</div>
+
+    
+    <footer id="footer">
+  <div class="footer-left">
+    Copyright &copy; 2017 JacekK
+  </div>
+  <div class="footer-right">
+    <nav>
+      <ul>
+         
+          <li><a href="/">Home</a></li>
+         
+          <li><a href="/archives/">Writing</a></li>
+         
+          <li><a href="http://github.com/jacekk" rel="external nofollow noopener noreferrer" target="_blank">Projects</a></li>
+        
+      </ul>
+    </nav>
+  </div>
+</footer>
+
+    <script src="/lib/justified-gallery/jquery.justifiedGallery.min.js"></script>
+<script src="/js/main.js"></script>
+<!-- Google Analytics -->
+
+    <script type="text/javascript">
+        (function(i,s,o,g,r,a,m) {i['GoogleAnalyticsObject']=r;i[r]=i[r]||function() {
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-90583873-7', 'auto');
+        ga('send', 'pageview');
+    </script>
+
+<!-- Disqus Comments -->
+
+    <script type="text/javascript">
+        var disqus_shortname = 'jacekk-github-io';
+
+        (function(){
+            var dsq = document.createElement('script');
+            dsq.type = 'text/javascript';
+            dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        }());
+    </script>
+
+
+</body>
+</html>
