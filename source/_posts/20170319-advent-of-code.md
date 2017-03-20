@@ -1,6 +1,6 @@
 ---
 title: Advent of Code
-description: Advent of Code
+description: Short note about one programming challenge I have found on the Internet. Actually, a set of challenges that lasts for 25 days.
 author: JacekK
 categories:
   - Daj Się Poznać 2017
@@ -10,7 +10,6 @@ tags:
   - Challenge
 date: 2017-03-19 23:50:12
 ---
-
 
 Short note about one programming challenge I have found on the Internet. Actually, a set of challenges that lasts for 25 days.
 
